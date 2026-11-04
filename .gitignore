@@ -1,0 +1,22 @@
+# Entorns virtuals
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Configuracio i credencials
+.env
+
+# Cobertura de tests
+.coverage
+htmlcov/
