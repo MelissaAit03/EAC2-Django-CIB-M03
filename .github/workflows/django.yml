@@ -25,9 +25,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Instalar Firefox
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y firefox
+        uses: browser-actions/setup-firefox@v1
 
       - name: Instalar dependencias
         run: |
